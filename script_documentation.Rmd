@@ -1,4 +1,3 @@
----
 title: "Script Documentation: Data Cleaning and Exploratory Data Analysis"
 author: "Amandeep Kaur"
 date: "2026-11-10"
@@ -31,3 +30,5 @@ library(ggplot2)
 # clean_data <- raw_data %>%
 #   drop_na(price, square_footage) %>%
 #   filter(price > 50000)
+
+AI Assistance Declaration: I used Gemini for suggesting Markdown formatting and code block syntax for R Markdown. Prompts used: "Here's my R script description. Suggest Markdown formatting and code block examples" and "Add syntax highlighting and improve section organization (e.g., # Purpose, ## Inputs, ## Outputs)." I verified outputs by previewing rendering in RStudio / Posit Cloud. All final code logic is done by myself. I am responsible for the accuracy and originality of this work.
