@@ -21,14 +21,5 @@ library(tidyverse)
 library(dplyr)
 library(ggplot2)
 
-# Load raw housing data safely
-# raw_data <- read.csv("data/raw_housing_data.csv")
-# Summary inspection of dataset structure
-# str(raw_data)
-
-# Handle missing values and filter outliers
-# clean_data <- raw_data %>%
-#   drop_na(price, square_footage) %>%
-#   filter(price > 50000)
 
 AI Assistance Declaration: I used Gemini for suggesting Markdown formatting and code block syntax for R Markdown. Prompts used: "Here's my R script description. Suggest Markdown formatting and code block examples" and "Add syntax highlighting and improve section organization (e.g., # Purpose, ## Inputs, ## Outputs)." I verified outputs by previewing rendering in RStudio / Posit Cloud. All final code logic is done by myself. I am responsible for the accuracy and originality of this work.
