@@ -1,0 +1,33 @@
+---
+title: "Script Documentation: Data Cleaning and Exploratory Data Analysis"
+author: "Amandeep Kaur"
+date: "2026-11-10"
+output: html_document
+---
+
+# Purpose
+This R Markdown document outlines the data cleaning, preprocessing, and exploratory data analysis (EDA) workflow applied to raw real estate datasets within the BDA400 analytics pipeline.
+
+## Inputs
+- **Raw Dataset**: `data/raw_housing_data.csv` containing raw property sales figures, square footage, bedroom counts, and sale prices.
+
+## Outputs
+- **Cleaned Dataset**: Processed dataframe with imputed missing values and standardized feature scales.
+- **Visualizations**: Saved plots including `outputs/price_distribution_plot.png`.
+
+## Code Implementation
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+
+# Load raw housing data safely
+# raw_data <- read.csv("data/raw_housing_data.csv")
+# Summary inspection of dataset structure
+# str(raw_data)
+
+# Handle missing values and filter outliers
+# clean_data <- raw_data %>%
+#   drop_na(price, square_footage) %>%
+#   filter(price > 50000)
